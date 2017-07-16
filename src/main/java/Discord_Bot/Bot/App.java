@@ -29,7 +29,7 @@ public class App extends ListenerAdapter {
         User objUser = e.getAuthor();
        
         //Responds to any user who says "hello"
-        if (objMsg.getContent().equals("hello")) {
+        if (objMsg.getContent().equals("ciao")) {
             objChannel.sendMessage("Hello, " + objUser.getAsMention() +"!").queue();
         }
        
