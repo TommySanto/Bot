@@ -1,0 +1,1 @@
+provabottana: python "bot.py"
